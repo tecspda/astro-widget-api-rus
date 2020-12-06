@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/-Horoscope%20API-blueviolet.svg)
 
-Astrology API RUS
+Astrology widget API RUS
 ======
 [![GitHub issues](https://img.shields.io/github/issues/tapaswenipathak/astro-widget-api-rus.svg)](https://github.com/tecspda/astro-widget-api-rus/issues)
 [![GitHub forks](https://img.shields.io/github/forks/tapaswenipathak/astro-widget-api-rus.svg)](https://github.com/tecspda/astro-widget-api-rus/network)
