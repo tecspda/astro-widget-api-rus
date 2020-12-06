@@ -29,16 +29,16 @@ An API to extract horoscope.
   * broken down into year, sunsign and horoscope.
 
 # API Usage
-### API Base URL: `http://astro-widget-api-rus.herokuapp.com/`
+### API Base URL: `https://astrolog.life/api/testwork.php`
 
 Result :
 ```json
 {
-  "author": "Tapasweni Pathak", 
-  "author_url": "http://tapasweni-pathak.github.io/", 
-  "base_url": "astro-widget-api-rus.herokuapp.com", 
-  "project_name": "Horoscope API", 
-  "project_url": "http://tapasweni-pathak.github.io/astro-widget-api-rus"
+  "author": "Sergey Durmanov", 
+  "author_url": "https://astrolog.life/", 
+  "base_url": "https://astrolog.life/api/", 
+  "project_name": "Astrology API RUS", 
+  "project_url": "http://tecspda.github.io/astro-widget-api-rus"
 }
 ```
 
