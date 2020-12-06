@@ -55,7 +55,7 @@ Result :
 
 | Params | Note, value |
 | ------ | ------ |
-| moon_type | haircut_small or haircut_full |
+| moon_type | `haircut_small` or **haircut_full** |
 | month | from 1 before 12 |
 | dot_shift | Optional, mean shift of color point |
 
