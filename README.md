@@ -19,17 +19,20 @@ An API to extract horoscope.
 
 # Features
 
-* Today's horoscope 
-  * broken down into date, sunsign and horoscope.
-* Weekly horoscope
-  * broken down into week, sunsign and horoscope.
-* Monthly horoscope
-  * broken down into month, sunsign and horoscope.
-* Yearly horoscope
-  * broken down into year, sunsign and horoscope.
-
+* Moon haircut calendar 
+  * only calendar by month.
+  * calendar and detail all days in month.
+* Moon off course calendar
+  * calendar by month with color mark.
+* Natal
+  * Natal img.
+  * Plantets in Zodiak note.
+  * Planets params note.
+  * Gradus note.
+  * Warning: important gradus note.
+  
 # API Usage
-##### API Base URL: `https://astrolog.life/api/testwork.php`
+###### API Test URL: `https://astrolog.life/api/testwork.php`
 
 Result :
 ```json
@@ -43,8 +46,8 @@ Result :
 ```
 
 ## GET MOON HAIRCUT CALENDAR
-##### GET: `https://astrolog.life/api/api_get_moon.php?<moon_type>={haircut_small, haircut_full}&<month>={1-12}&&<dot_shift>=XX(not requery)`
-##### Example
+###### GET: `https://astrolog.life/api/api_get_moon.php?<moon_type>={haircut_small, haircut_full}&<month>={1-12}&&<dot_shift>=XX(not requery)`
+###### Example
 Example usage: `GET https://astrolog.life/api/api_get_moon.php?moon_type=haircut_small&month=12&&dot_shift=10`
 
 Example url: <https://astrolog.life/api/api_get_moon.php?moon_type=haircut_small&month=12&&dot_shift=10>
