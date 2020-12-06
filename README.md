@@ -2,11 +2,11 @@
 
 Astrology API RUS
 ======
-[![GitHub issues](https://img.shields.io/github/issues/tapaswenipathak/Horoscope-API.svg)](https://github.com/tecspda/Horoscope-API/issues)
-[![GitHub forks](https://img.shields.io/github/forks/tapaswenipathak/Horoscope-API.svg)](https://github.com/tecspda/Horoscope-API/network)
-[![GitHub stars](https://img.shields.io/github/stars/tapaswenipathak/Horoscope-API.svg)](https://github.com/tecspda/Horoscope-API/stargazers)
-[![GitHub license](https://img.shields.io/github/license/tapaswenipathak/Horoscope-API.svg)](https://github.com/tecspda/Horoscope-API/blob/master/License.md)
-[![Twitter](https://img.shields.io/twitter/url/https/github.com/tapaswenipathak/Horoscope-API.svg?label=Horoscope-API&style=social)](https://twitter.com/intent/tweet?text=Horoscope%20API:&url=https%3A%2F%2Fgithub.com%2Ftapaswenipathak%2FHoroscope-API)
+[![GitHub issues](https://img.shields.io/github/issues/tecspda/astro-widget-api-rus.svg)](https://github.com/tecspda/astro-widget-api-rus/issues)
+[![GitHub forks](https://img.shields.io/github/forks/tecspda/astro-widget-api-rus.svg)](https://github.com/tecspda/astro-widget-api-rus/network)
+[![GitHub stars](https://img.shields.io/github/stars/tecspda/astro-widget-api-rus.svg)](https://github.com/tecspda/astro-widget-api-rus/stargazers)
+[![GitHub license](https://img.shields.io/github/license/tecspda/astro-widget-api-rus.svg)](https://github.com/tecspda/astro-widget-api-rus/blob/master/License.md)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/tecspda/astro-widget-api-rus.svg?label=astro-widget-api-rus&style=social)](https://twitter.com/intent/tweet?text=Horoscope%20API:&url=https%3A%2F%2Fgithub.com%2Ftecspda%2Fastro-widget-api-rus)
 
 An API to extract horoscope.
 
@@ -29,22 +29,22 @@ An API to extract horoscope.
   * broken down into year, sunsign and horoscope.
 
 # API Usage
-### API Base URL: `http://horoscope-api.herokuapp.com/`
+### API Base URL: `http://astro-widget-api-rus.herokuapp.com/`
 
 Result :
 ```json
 {
   "author": "Tapasweni Pathak", 
   "author_url": "http://tapasweni-pathak.github.io/", 
-  "base_url": "horoscope-api.herokuapp.com", 
+  "base_url": "astro-widget-api-rus.herokuapp.com", 
   "project_name": "Horoscope API", 
-  "project_url": "http://tapasweni-pathak.github.io/Horoscope-API"
+  "project_url": "http://tapasweni-pathak.github.io/astro-widget-api-rus"
 }
 ```
 
 ### GET: `/horoscope/today/<sunsign>`
 #### Example
-Example usage: `GET http://horoscope-api.herokuapp.com/horoscope/today/Libra`
+Example usage: `GET http://astro-widget-api-rus.herokuapp.com/horoscope/today/Libra`
 
 Example result:
 ```json
@@ -57,7 +57,7 @@ Example result:
 
 ### GET: `/horoscope/week/<sunsign>`
 #### Example
-Example usage: `GET http://horoscope-api.herokuapp.com/horoscope/week/libra`
+Example usage: `GET http://astro-widget-api-rus.herokuapp.com/horoscope/week/libra`
 
 Output (excerpt):
 ```json
@@ -70,7 +70,7 @@ Output (excerpt):
 
 ### GET: `/horoscope/month/<sunsign>`
 #### Example
-Example usage: `GET http://horoscope-api.herokuapp.com/horoscope/month/libra`
+Example usage: `GET http://astro-widget-api-rus.herokuapp.com/horoscope/month/libra`
 
 Output (excerpt):
 ```json
@@ -82,7 +82,7 @@ Output (excerpt):
 ```
 
 ### GET: `/horoscope/year/<sunsign>`
-Example usage: `GET http://horoscope-api.herokuapp.com/horoscope/year/libra`
+Example usage: `GET http://astro-widget-api-rus.herokuapp.com/horoscope/year/libra`
  Output (excerpt):
  ```json
  {
@@ -98,7 +98,7 @@ Example usage: `GET http://horoscope-api.herokuapp.com/horoscope/year/libra`
 * Astrological Perspective of a Sunsign
 
 # API Wrappers 
-* [Java Wrapper](https://github.com/TheBotBox/Horoscope-API) by [TheBotBox](https://github.com/TheBotBox/) 
+* [Java Wrapper](https://github.com/TheBotBox/astro-widget-api-rus) by [TheBotBox](https://github.com/TheBotBox/) 
 * [Flutter Wrapper](https://github.com/sumitgohil/flutter_horoscope) by [SumitGohil](https://github.com/sumitgohil/) 
 
 # Contributing
@@ -112,4 +112,4 @@ Feel free to submit a pull request or an issue!
 
 #### Note 3 : You can also try - https://horoscopesapi.com which has a commercial license and more features.
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tapasweni-pathak/horoscope-api/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tapasweni-pathak/astro-widget-api-rus/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
