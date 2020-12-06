@@ -48,7 +48,7 @@ Example usage: `GET https://astrolog.life/api/api_get_moon.php?moon_type=haircut
 
 Example result:
 ```html
-(https://astrolog.life/api/.git/img/example_small.png)
+<img src="https://astrolog.life/api/.git/img/example_small.png" style="width: 100%; max-width: 300px;">
 ```
 
 ### GET: `/horoscope/week/<sunsign>`
