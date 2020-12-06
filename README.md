@@ -29,7 +29,7 @@ An API to extract horoscope.
   * broken down into year, sunsign and horoscope.
 
 # API Usage
-#### API Base URL: `https://astrolog.life/api/testwork.php`
+##### API Base URL: `https://astrolog.life/api/testwork.php`
 
 Result :
 ```json
@@ -42,7 +42,8 @@ Result :
 }
 ```
 
-#### GET: `https://astrolog.life/api/api_get_moon.php?<moon_type>={haircut_small, haircut_full}&<month>={1-12}&&<dot_shift>=XX(not requery)`
+## GET MOON HAIRCUT CALENDAR
+##### GET: `https://astrolog.life/api/api_get_moon.php?<moon_type>={haircut_small, haircut_full}&<month>={1-12}&&<dot_shift>=XX(not requery)`
 ##### Example
 Example usage: `GET https://astrolog.life/api/api_get_moon.php?moon_type=haircut_small&month=12&&dot_shift=10`
 
@@ -67,29 +68,7 @@ Output (excerpt):
 }
 ```
 
-### GET: `/horoscope/month/<sunsign>`
-#### Example
-Example usage: `GET http://astro-widget-api-rus.herokuapp.com/horoscope/month/libra`
 
-Output (excerpt):
-```json
-{
-  "horoscope": "  Ganesha says brace up for a hectic month, as every aspect of your life shall keep you extremely busy. On the work front, your relations with seniors shall improve. As for work, you shall easily complete the projects assigned to you. Your social network and contacts shall matter a lot this month. You may also quit your job and start a business, to improve your financial condition. However, don\u2019t take any hasty decisions, cautions Ganesha. You are likely to be tempted to take some drastic steps to improve your finances. However, you should consult experts before undertaking anything risky. Also, start saving and chart out your investment plans. Over the course of the month, your finances shall improve gradually. Gains through investments in business are also indicated. To get some valuable tips on how to improve your financial condition even more, try the Birth Chart based report Wealth Ask a Question Detailed. As per Ganesha, your personal life may be fairly smooth this month, provided you are flexible and accommodating. Planetary positions indicate that your stubbornness may negatively affect your spouse and other members of your family.  Shani Dosha  Shani Dosha occurs when Saturn, the feared, mighty planet, is debilitated or occupies any of the Cardinal Houses (1, 4, 7, 10) in Aries, Cancer, Leo, or Scorpio or is Retrograde or Combust (by Sun) in those Houses (whatever be the Sign, except Libra, Capricorn and Aquarius) in a Horoscope. These planetary positions can cause troubles for you. Find out and deal well!    Get It Now! ", 
-  "month": "Sep 2014 ", 
-  "sunsign": "libra"
-}
-```
-
-### GET: `/horoscope/year/<sunsign>`
-Example usage: `GET http://astro-widget-api-rus.herokuapp.com/horoscope/year/libra`
- Output (excerpt):
- ```json
- {
-   "horoscope": "The planetary alignment indicate that you will have trouble controlling your temper during the year ahead. Be very careful of your words and actions as even petty issues may go out of hand in no time. As far as your love life is concerned, there will some ups and downs during year . Be unbiased and practical while sorting out issues with your beloved, else you will not be able to stop things from going bad to worse. This year, you need to be very clear about how you are going to handle your finances. According to Ganesha, you should pay special attention to your spendings and cash outflow. Whereas for your business, it may prove to be an excellent year. In all likelihood, you will come across lucrative business opportunities. The transiting Jupiter may bring you a favourable period on the career front in the form of a promotion or an increment. Well, be prepared to accept more responsibilities.",
-   "sunsign": "libra",
-   "year": "2014 "
-}
-```
 # Todo
 * Personality Profile
 * Facts About a Sunsign
