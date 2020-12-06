@@ -46,7 +46,23 @@ Result :
 ```
 
 ## GET MOON HAIRCUT CALENDAR
-###### GET: `https://astrolog.life/api/api_get_moon.php?<moon_type>={haircut_small, haircut_full}&<month>={1-12}&&<dot_shift>=XX(not requery)`
+###### GET: `https://astrolog.life/api/api_get_moon.php?<moon_type>=haircut_full&month=1-12&dot_shift=XX(not requery)`
+###### Example
+Example usage: `GET https://astrolog.life/api/api_get_moon.php?moon_type=haircut_small&month=12&&dot_shift=10`
+
+Example url: <https://astrolog.life/api/api_get_moon.php?moon_type=haircut_small&month=12&&dot_shift=10>
+
+Params
+- moon_type = haircut_small
+- month = 12
+
+
+Example result:
+
+![Widget Moon haircut](https://astrolog.life/api/git_review/img/example_small.svg)
+
+## GET MOON HAIRCUT CALENDAR & DAY DETAILS
+###### GET: `https://astrolog.life/api/api_get_moon.php?<moon_type>=haircut_full&month=1-12&dot_shift=XX(not requery)`
 ###### Example
 Example usage: `GET https://astrolog.life/api/api_get_moon.php?moon_type=haircut_small&month=12&&dot_shift=10`
 
@@ -55,8 +71,6 @@ Example url: <https://astrolog.life/api/api_get_moon.php?moon_type=haircut_small
 Example result:
 
 ![Widget Moon haircut](https://astrolog.life/api/git_review/img/example_small.svg)
-
-
 
 ### GET: `/horoscope/week/<sunsign>`
 #### Example
