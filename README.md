@@ -42,17 +42,13 @@ Result :
 }
 ```
 
-### GET: `/horoscope/today/<sunsign>`
+### GET: `https://astrolog.life/api/api_get_moon.php?<moon_type>={haircut_small, haircut_full}&<month>={1-12}&&<dot_shift>=XX(not requery)`
 #### Example
-Example usage: `GET http://astro-widget-api-rus.herokuapp.com/horoscope/today/Libra`
+Example usage: `GET https://astrolog.life/api/api_get_moon.php?moon_type=haircut_small&month=12&&dot_shift=10`
 
 Example result:
-```json
-{
-  "date": "04-09-2014", 
-  "horoscope": "It is very likely that you will arouse immense jealousy in others with your success and growth in business. Your business rivals may attempt to dent your credit worthiness in one way or the other. You may prefer to deal with them subtly rather than confront them openly, feels Ganesha.       Astro Profile  Uncover the real you, and see for yourself the cosmic map that Almighty has constructed for you. This specific arrangement of planets, the numbers and the stars at the time you were born makes you unique. Discover such aspects through the free Astro Profile report.      Get It Now!  ", 
-  "sunsign": "libra"
-}
+```html
+(https://astrolog.life/api/.git/img/example_small.png)
 ```
 
 ### GET: `/horoscope/week/<sunsign>`
