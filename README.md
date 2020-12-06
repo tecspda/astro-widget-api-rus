@@ -45,6 +45,7 @@ Result :
 ### GET: `https://astrolog.life/api/api_get_moon.php?<moon_type>={haircut_small, haircut_full}&<month>={1-12}&&<dot_shift>=XX(not requery)`
 #### Example
 Example usage: `GET https://astrolog.life/api/api_get_moon.php?moon_type=haircut_small&month=12&&dot_shift=10`
+
 Example url: <https://astrolog.life/api/api_get_moon.php?moon_type=haircut_small&month=12&&dot_shift=10>
 
 Example result:
