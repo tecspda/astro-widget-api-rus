@@ -47,7 +47,7 @@ Result :
 Example usage: `GET https://astrolog.life/api/api_get_moon.php?moon_type=haircut_small&month=12&&dot_shift=10`
 
 Example result:
-![Widget Moon haircut](https://astrolog.life/api/git_review/img/example_small.png)
+![Widget Moon haircut](https://astrolog.life/api/git_review/img/haircut_small.png)
 
 
 
