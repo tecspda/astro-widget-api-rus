@@ -47,13 +47,17 @@ Result :
 
 ## GET MOON HAIRCUT CALENDAR
 ###### GET: `https://astrolog.life/api/api_get_moon.php?<moon_type>=haircut_full&month=1-12&dot_shift=XX(not requery)`
-###### Example
-Example usage: `GET https://astrolog.life/api/api_get_moon.php?moon_type=haircut_small&month=12&&dot_shift=10`
-[link](https://astrolog.life/api/api_get_moon.php?moon_type=haircut_small&month=12&&dot_shift=10)
 
-Params
-- moon_type = haircut_small
-- month = 12
+| Examples | Link |
+| ------ | ------ |
+| Example1 | [link](https://astrolog.life/api/api_get_moon.php?moon_type=haircut_small&month=12&dot_shift=10)|
+| Example1 | [link](https://astrolog.life/api/api_get_moon.php?moon_type=haircut_full&month=12&dot_shift=10)|
+
+| Params | Note, value |
+| ------ | ------ |
+| moon_type | haircut_small or haircut_full |
+| month | from 1 before 12 |
+| dot_shift | Optional, mean shift of color point |
 
 
 Example result:
