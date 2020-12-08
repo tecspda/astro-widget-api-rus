@@ -49,7 +49,7 @@ Result :
 ```
 <hr>
 
-## GET MOON HAIRCUT CALENDAR
+## GET Moon haircut calendar
 ###### GET: `https://astrolog.life/api/api_get_moon.php?<moon_type>=haircut_full&month=1-12&dot_shift=XX(not requery)`
 
 | Examples | Link |
@@ -70,7 +70,7 @@ Example result:
 
 <hr>
 
-## GET MOON DAYS WITH DETAILS
+## GET Moon days with detail
 ###### GET: `https://astrolog.life/api/api_get_moon_day.php?type=[string]&date=[string]&time=[string]&tzone=[string]&ext=[string]`
 ###### Example 1 (only number of Moon day)
 | Examples | Link |
