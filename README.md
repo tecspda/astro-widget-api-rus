@@ -53,7 +53,7 @@ Result :
 | Example1 | [api_get_moon.php?moon_type=haircut_small&month=12&dot_shift=10](https://astrolog.life/api/api_get_moon.php?moon_type=haircut_small&month=12&dot_shift=10)|
 | Example1 | [api_get_moon.php?moon_type=haircut_full&month=12&dot_shift=10](https://astrolog.life/api/api_get_moon.php?moon_type=haircut_full&month=12&dot_shift=10)|
 
-| Params | Note, value |
+| Params | Value |
 | ------ | ------ |
 | moon_type | `haircut_small` or **haircut_full** |
 | month | from 1 before 12 |
@@ -70,20 +70,25 @@ Example result:
 ###### Example 1 (only number of Moon day)
 | Examples | Link |
 | ------ | ------ |
-| Example1 | [link](https://astrolog.life/api/api_moon.php?type=day&date=2020-12-01&time=17:43&tzone=UTC+3&ext=num)|
+| Example1 | [api_get_moon_day.php?type=day&date=2020-12-01&time=17:43&tzone=UTC+3&ext=num](https://astrolog.life/api/api_get_moon_day.php?type=day&date=2020-12-01&time=17:43&tzone=UTC+3&ext=num)|
 
-| Params | Note, value |
+| Params | Value |
 | ------ | ------ |
 | type | `day` |
-| date | `2020-12-01` - its mean 1 Dec 2020, default Now() |
-| time | `17:43` or `17:43:05`, default Noew() |
+| date | `2020-12-01` - it's mean 1 Dec 2020, default Now() |
+| time | `17:43` or `17:43:05`, default Now() |
+| tzone | `UTC+1` or `UTC+5` etc., default `UCT+3` MSK Russia |
+| ext | `num` or `html`, default Now() |
 
-###### Example
-Example usage: ``
 
-Example result:
+Example ext=num result:
 
-![Widget Moon haircut](https://astrolog.life/api/git_review/img/example_small.svg)
+```html
+23
+```
+Example ext=html result:
+
+![Widget Moon day](https://astrolog.life/api/git_review/img/example_day_html.svg)
 
 ### GET: `/horoscope/week/<sunsign>`
 #### Example
