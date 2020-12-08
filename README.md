@@ -45,6 +45,7 @@ Result :
 }
 ```
 
+
 ## GET MOON HAIRCUT CALENDAR
 ###### GET: `https://astrolog.life/api/api_get_moon.php?<moon_type>=haircut_full&month=1-12&dot_shift=XX(not requery)`
 
@@ -63,6 +64,7 @@ Result :
 Example result:
 
 ![Widget Moon haircut](https://astrolog.life/api/git_review/img/example_small.svg)![Widget Moon haircut](https://astrolog.life/api/git_review/img/example_moon_day_note1.svg)
+
 
 
 ## GET MOON DAYS WITH DETAILS
