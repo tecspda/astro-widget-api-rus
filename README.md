@@ -70,12 +70,41 @@ Example result:
 
 <hr>
 
-## GET Moon days with detail
+## GET Moon day
 ###### GET: `https://astrolog.life/api/api_get_moon_day.php?type=[string]&date=[string]&time=[string]&tzone=[string]&ext=[string]`
 ###### Example 1 (only number of Moon day)
 | Examples | Link |
 | ------ | ------ |
 | Example1 | [api_get_moon_day.php?type=day&date=2020-12-01&time=17:43&tzone=UTC+3&ext=num](https://astrolog.life/api/api_get_moon_day.php?type=day&date=2020-12-08&time=17:43&tzone=UTC+3&ext=num)|
+| Example1 | [api_get_moon_day.php?type=day&date=2020-12-01&time=17:43&tzone=UTC+3&ext=html](https://astrolog.life/api/api_get_moon_day.php?type=day&date=2020-12-08&time=17:43&tzone=UTC+3&ext=html)|
+
+| Params | Value |
+| ------ | ------ |
+| type | `day` |
+| date | `2020-12-08` - it's mean 1 Dec 2020, default Now() |
+| time | `17:43` or `17:43:05`, default Now() |
+| tzone | `UTC+1` or `UTC+5` etc., default `UCT+3` MSK Russia |
+| ext | `num` or `html`, default Now() |
+
+
+Example ext=num result:
+
+```html
+23
+```
+Example ext=html result:
+
+![Widget Moon day](https://astrolog.life/api/git_review/img/example_day_html.svg)
+
+<hr>
+
+## GET Moon day today (now)
+###### GET: `https://astrolog.life/api/api_get_moon_day.php?type=[string]&date=[string]&time=[string]&tzone=[string]&ext=[string]`
+###### Example 1 (only number of Moon day)
+| Examples | Link |
+| ------ | ------ |
+| Example1 | [api_get_moon_day.php?type=day&date=2020-12-01&time=17:43&tzone=UTC+3&ext=num](https://astrolog.life/api/api_get_moon_day.php?type=day&date=2020-12-08&time=17:43&tzone=UTC+3&ext=num)|
+| Example1 | [api_get_moon_day.php?type=day&date=2020-12-01&time=17:43&tzone=UTC+3&ext=html](https://astrolog.life/api/api_get_moon_day.php?type=day&date=2020-12-08&time=17:43&tzone=UTC+3&ext=html)|
 
 | Params | Value |
 | ------ | ------ |
