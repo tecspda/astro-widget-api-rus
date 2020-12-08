@@ -119,17 +119,18 @@ Output (excerpt):
 
 # API Wrappers 
 * Only native html & CSS 
-* No js, No Jquery etc = no conflict style and engine 
+* **No js**, **No JQuery** etc = no conflict style and engine
+* Minimal CSS style (without heavy CSS properties)
 
 # Contributing
 Feel free to submit a pull request or an issue!
 
 
 
-#### Note 1 : This parses [GaneshaSpeaks](http://www.ganeshaspeaks.com/) unofficialy.  
+#### Note 1 : This parses [GaneshaSpeaks](https://astrolog.life/api/) officialy.  
 
 #### Note 2 : If the API goes down, please open a issue or comment on already existing one with the problem(s) that you are facing. This is the best way to let me know that the API is not working, avoid sending email. 
 
-#### Note 3 : You can also try - https://horoscopesapi.com which has a commercial license and more features.
+#### Note 3 : You can also try - https://astrolog.life/api/pay which has a commercial license and more features (custom styles, output in json etc).
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tapasweni-pathak/astro-widget-api-rus/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
