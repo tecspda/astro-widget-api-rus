@@ -22,8 +22,9 @@ An API to extract horoscope.
 * Moon haircut calendar 
   * only calendar by month.
   * calendar and detail all days in month.
-* Moon off course calendar
-  * calendar by month with color mark.
+* Moon day (now, custom date)
+  * Moon day only
+  * Moon day with icons and style  
 * Natal
   * Natal img.
   * Plantets in Zodiak note.
@@ -44,7 +45,7 @@ Result :
   "project_url": "http://tecspda.github.io/astro-widget-api-rus"
 }
 ```
-
+<hr>
 
 ## GET MOON HAIRCUT CALENDAR
 ###### GET: `https://astrolog.life/api/api_get_moon.php?<moon_type>=haircut_full&month=1-12&dot_shift=XX(not requery)`
