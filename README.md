@@ -131,6 +131,6 @@ Feel free to submit a pull request or an issue!
 
 #### Note 2 : If the API goes down, please open a issue or comment on already existing one with the problem(s) that you are facing. This is the best way to let me know that the API is not working, avoid sending email. 
 
-#### Note 3 : You can also try - https://astrolog.life/api/pay which has a commercial license and more features (custom styles, output in json etc).
+#### Note 3 : You can also try - https://astrolog.life/api/pay which has a commercial license and more features (custom styles, output in json, different language etc).
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tapasweni-pathak/astro-widget-api-rus/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
