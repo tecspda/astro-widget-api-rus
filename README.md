@@ -66,7 +66,7 @@ Example result:
 
 ![Widget Moon haircut](https://astrolog.life/api/git_review/img/example_small.svg)![Widget Moon haircut](https://astrolog.life/api/git_review/img/example_moon_day_note1.svg)
 
-
+<hr>
 
 ## GET MOON DAYS WITH DETAILS
 ###### GET: `https://astrolog.life/api/api_get_moon_day.php?type=[string]&date=[string]&time=[string]&tzone=[string]&ext=[string]`
@@ -90,8 +90,9 @@ Example ext=num result:
 23
 ```
 Example ext=html result:
-
 ![Widget Moon day](https://astrolog.life/api/git_review/img/example_day_html.svg)
+
+<hr>
 
 ### GET: `/horoscope/week/<sunsign>`
 #### Example
