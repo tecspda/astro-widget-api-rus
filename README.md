@@ -80,11 +80,11 @@ Example result:
 
 | Params | Value | Note |
 | ------ | ------ | ------ |
-| type | `day` |
+| type | `day` | default Now() |
 | date | `2020-12-08` | it's mean 1 Dec 2020, default Now() |
 | time | `17:43` or `17:43:05` | default Now() |
 | tzone | `UTC+1` or `UTC+5` etc. | default `UCT+3` MSK Russia |
-| ext | `num` or `html` | default Now() |
+| ext | `num` or `html` | default `html` |
 
 
 Example ext=num result:
