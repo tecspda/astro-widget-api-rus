@@ -78,13 +78,13 @@ Example result:
 | Example1 | [api_get_moon_day.php?type=day&date=2020-12-01&time=17:43&tzone=UTC+3&ext=num](https://astrolog.life/api/api_get_moon_day.php?type=day&date=2020-12-08&time=17:43&tzone=UTC+3&ext=num)|
 | Example1 | [api_get_moon_day.php?type=day&date=2020-12-01&time=17:43&tzone=UTC+3&ext=html](https://astrolog.life/api/api_get_moon_day.php?type=day&date=2020-12-08&time=17:43&tzone=UTC+3&ext=html)|
 
-| Params | Value |
-| ------ | ------ |
+| Params | Value | Note |
+| ------ | ------ | ------ |
 | type | `day` |
-| date | `2020-12-08` - it's mean 1 Dec 2020, default Now() |
-| time | `17:43` or `17:43:05`, default Now() |
-| tzone | `UTC+1` or `UTC+5` etc., default `UCT+3` MSK Russia |
-| ext | `num` or `html`, default Now() |
+| date | `2020-12-08` | it's mean 1 Dec 2020, default Now() |
+| time | `17:43` or `17:43:05` | default Now() |
+| tzone | `UTC+1` or `UTC+5` etc. | default `UCT+3` MSK Russia |
+| ext | `num` or `html` | default Now() |
 
 
 Example ext=num result:
