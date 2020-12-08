@@ -65,12 +65,21 @@ Example result:
 ![Widget Moon haircut](https://astrolog.life/api/git_review/img/example_small.svg)![Widget Moon haircut](https://astrolog.life/api/git_review/img/example_moon_day_note1.svg)
 
 
-## GET MOON HAIRCUT CALENDAR & DAY DETAILS
-###### GET: `https://astrolog.life/api/api_get_moon.php?<moon_type>=haircut_full&month=1-12&dot_shift=XX(not requery)`
-###### Example
-Example usage: `GET https://astrolog.life/api/api_get_moon.php?moon_type=haircut_small&month=12&&dot_shift=10`
+## GET MOON DAYS WITH DETAILS
+###### GET: `https://astrolog.life/api/api_get_moon_day.php?type=[string]&date=[string]&time=[string]&tzone=[string]&ext=[string]`
+###### Example 1 (only number of Moon day)
+| Examples | Link |
+| ------ | ------ |
+| Example1 | [link](GET https://astrolog.life/api/api_moon.php?type=day&date=2020-12-01&time=17:43&tzone=UTC+3&ext=num)|
 
-Example url: <https://astrolog.life/api/api_get_moon.php?moon_type=haircut_small&month=12&&dot_shift=10>
+| Params | Note, value |
+| ------ | ------ |
+| type | `day` |
+| date | `2020-12-01` - its mean 1 Dec 2020, default Now() |
+| time | `17:43` or `17:43:05`, default Noew() |
+
+###### Example
+Example usage: ``
 
 Example result:
 
