@@ -118,8 +118,8 @@ Output (excerpt):
 * Astrological Perspective of a Sunsign
 
 # API Wrappers 
-* [Java Wrapper](https://github.com/TheBotBox/astro-widget-api-rus) by [TheBotBox](https://github.com/TheBotBox/) 
-* [Flutter Wrapper](https://github.com/sumitgohil/flutter_horoscope) by [SumitGohil](https://github.com/sumitgohil/) 
+* Only native html & CSS 
+* No js, No Jquery etc = no conflict style and engine 
 
 # Contributing
 Feel free to submit a pull request or an issue!
