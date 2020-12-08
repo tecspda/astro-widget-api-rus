@@ -127,7 +127,7 @@ Feel free to submit a pull request or an issue!
 
 
 
-#### Note 1 : This parses [GaneshaSpeaks](https://astrolog.life/api/) officialy.  
+#### Note 1 : This API is free (but limit 1000 requests per Month or 100 requests per day).  
 
 #### Note 2 : If the API goes down, please open a issue or comment on already existing one with the problem(s) that you are facing. This is the best way to let me know that the API is not working, avoid sending email. 
 
