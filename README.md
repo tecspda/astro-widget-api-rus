@@ -32,6 +32,8 @@ An API to extract horoscope.
   * Gradus note.
   * Warning: important gradus note.
   
+**Notice**: all html result style = inline-block. 
+  
 # API Usage
 ###### API Test URL: `https://astrolog.life/api/testwork.php`
 
@@ -90,6 +92,7 @@ Example ext=num result:
 23
 ```
 Example ext=html result:
+
 ![Widget Moon day](https://astrolog.life/api/git_review/img/example_day_html.svg)
 
 <hr>
