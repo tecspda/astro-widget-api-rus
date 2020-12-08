@@ -50,8 +50,8 @@ Result :
 
 | Examples | Link |
 | ------ | ------ |
-| Example1 | [link](https://astrolog.life/api/api_get_moon.php?moon_type=haircut_small&month=12&dot_shift=10)|
-| Example1 | [link](https://astrolog.life/api/api_get_moon.php?moon_type=haircut_full&month=12&dot_shift=10)|
+| Example1 | [api_get_moon.php?moon_type=haircut_small&month=12&dot_shift=10](https://astrolog.life/api/api_get_moon.php?moon_type=haircut_small&month=12&dot_shift=10)|
+| Example1 | [api_get_moon.php?moon_type=haircut_full&month=12&dot_shift=10](https://astrolog.life/api/api_get_moon.php?moon_type=haircut_full&month=12&dot_shift=10)|
 
 | Params | Note, value |
 | ------ | ------ |
@@ -70,7 +70,7 @@ Example result:
 ###### Example 1 (only number of Moon day)
 | Examples | Link |
 | ------ | ------ |
-| Example1 | [link](GET https://astrolog.life/api/api_moon.php?type=day&date=2020-12-01&time=17:43&tzone=UTC+3&ext=num)|
+| Example1 | [link](https://astrolog.life/api/api_moon.php?type=day&date=2020-12-01&time=17:43&tzone=UTC+3&ext=num)|
 
 | Params | Note, value |
 | ------ | ------ |
