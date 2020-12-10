@@ -91,7 +91,7 @@ Example result:
 Example ext=num result:
 
 ```html
-23
+22
 ```
 Example ext=html result:
 
