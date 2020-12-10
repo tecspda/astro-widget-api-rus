@@ -51,8 +51,9 @@ Result :
 
 ## GET Moon haircut calendar
 
-[api_get_moon.php?moon_type=haircut_small&month=12&dot_shift=10](https://astrolog.life/api/api_get_moon.php?moon_type=haircut_small&month=12&dot_shift=10)|
-[api_get_moon.php?moon_type=haircut_full&month=12&dot_shift=10](https://astrolog.life/api/api_get_moon.php?moon_type=haircut_full&month=12&dot_shift=10)
+GET [api_get_moon.php?moon_type=haircut_small&month=12&dot_shift=10](https://astrolog.life/api/api_get_moon.php?moon_type=haircut_small&month=12&dot_shift=10)
+
+GET [api_get_moon.php?moon_type=haircut_full&month=12&dot_shift=10](https://astrolog.life/api/api_get_moon.php?moon_type=haircut_full&month=12&dot_shift=10)
 
 
 
