@@ -52,12 +52,12 @@ Result :
 ## GET Moon haircut calendar
 **Example**
 ```html
-GET: https://astrolog.life/api/api_get_moon.php?**moon_type=X&month=Y&dot_shift=Z
+GET: https://astrolog.life/api/api_get_moon.php?moon_type=X&month=Y&dot_shift=Z
 ```
 | Params |  | Value |
 | ------ | ------ | ------ |
 | moon_type | X | `haircut_small` or **haircut_full** |
-| month | Y | from 1 before 12 |
+| month | Y | One digit (from 1 until 12) |
 | dot_shift | Z | Optional, mean shift of color point |
 
 | Examples | Link |
