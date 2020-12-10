@@ -50,9 +50,9 @@ Result :
 <hr>
 
 ## GET Moon haircut calendar
-```html
+**Example**
 GET: https://astrolog.life/api/api_get_moon.php?**moon_type**=haircut_full&`month`=1-12&`dot_shift`=XX(not requery)`
-```
+
 | Params | Value |
 | ------ | ------ |
 | moon_type | `haircut_small` or **haircut_full** |
