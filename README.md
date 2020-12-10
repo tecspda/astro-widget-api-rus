@@ -54,7 +54,7 @@ Result :
 ```html
 GET: https://astrolog.life/api/api_get_moon.php?**moon_type=X&month=Y&dot_shift=Z
 ```
-| Params | Value |
+| Params |  | Value |
 | ------ | ------ | ------ |
 | moon_type | X | `haircut_small` or **haircut_full** |
 | month | Y | from 1 before 12 |
