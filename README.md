@@ -54,11 +54,11 @@ Result :
 ```html
 GET: https://astrolog.life/api/api_get_moon.php?**moon_type=X&month=Y&dot_shift=Z
 ```
-| Params | Params | Value |
+| Params | Value |
 | ------ | ------ | ------ |
-| X | moon_type | `haircut_small` or **haircut_full** |
-| Y | month | from 1 before 12 |
-| Z | dot_shift | Optional, mean shift of color point |
+| moon_type | X | `haircut_small` or **haircut_full** |
+| month | Y | from 1 before 12 |
+| dot_shift | Z | Optional, mean shift of color point |
 
 | Examples | Link |
 | ------ | ------ |
