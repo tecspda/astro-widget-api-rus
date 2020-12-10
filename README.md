@@ -51,7 +51,7 @@ Result :
 
 ## GET Moon haircut calendar
 **Example**
-GET: https://astrolog.life/api/api_get_moon.php?**moon_type**=haircut_full&`month`=1-12&`dot_shift`=XX`
+GET: https://astrolog.life/api/api_get_moon.php?**moon_type**=haircut_full&`month`=1-12&`dot_shift`=XX
 
 | Params | Value |
 | ------ | ------ |
