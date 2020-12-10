@@ -47,19 +47,11 @@ Result :
   "project_url": "http://tecspda.github.io/astro-widget-api-rus"
 }
 ```
-
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
 <hr>
 
 ## GET Moon haircut calendar
 ```html
-###### GET: https://astrolog.life/api/api_get_moon.php?**moon_type**=haircut_full&`month`=1-12&`dot_shift`=XX(not requery)`
+GET: https://astrolog.life/api/api_get_moon.php?**moon_type**=haircut_full&`month`=1-12&`dot_shift`=XX(not requery)`
 ```
 | Params | Value |
 | ------ | ------ |
