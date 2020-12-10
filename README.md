@@ -53,17 +53,16 @@ Result :
 
 ###### GET: `https://astrolog.life/api/api_get_moon.php?<moon_type>=haircut_full&month=1-12&dot_shift=XX(not requery)`
 
-| Examples | Link |
-| ------ | ------ |
-| Example1 | [api_get_moon.php?moon_type=haircut_small&month=12&dot_shift=10](https://astrolog.life/api/api_get_moon.php?moon_type=haircut_small&month=12&dot_shift=10)|
-| Example2 | [api_get_moon.php?moon_type=haircut_full&month=12&dot_shift=10](https://astrolog.life/api/api_get_moon.php?moon_type=haircut_full&month=12&dot_shift=10)|
-
 | Params | Value |
 | ------ | ------ |
 | moon_type | `haircut_small` or **haircut_full** |
 | month | from 1 before 12 |
 | dot_shift | Optional, mean shift of color point |
 
+| Examples | Link |
+| ------ | ------ |
+| Example1 | [api_get_moon.php?moon_type=haircut_small&month=12&dot_shift=10](https://astrolog.life/api/api_get_moon.php?moon_type=haircut_small&month=12&dot_shift=10)|
+| Example2 | [api_get_moon.php?moon_type=haircut_full&month=12&dot_shift=10](https://astrolog.life/api/api_get_moon.php?moon_type=haircut_full&month=12&dot_shift=10)|
 
 Example result:
 
