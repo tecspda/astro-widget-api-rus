@@ -21,7 +21,8 @@ An API to extract horoscope.
   * calendar and detail all days in month.
 * Moon day (now, custom date)
   * Moon day only
-  * Moon day with icons and style  
+  * Moon day with icons and style
+* Moon phases caledar
 * Natal (start in Dec 2020, now testing)
   * Natal img.
   * Plantets in Zodiak note.
@@ -122,6 +123,27 @@ Example ext=html result:
 
 <hr>
 
+## GET Moon phases calendar
+**Example**
+```html
+GET: https://astrolog.life/api/api_get_moon_day.php?type=phaselist&date_start=X&date_stop=Y
+```
+| Params |  | Value |
+| ------ | ------ | ------ |
+| date_start | X | format `2020-12-01` |
+| date_stop | Y | format `2020-12-01` |
+| with_percent | Z | optional, default `0`, `1` - for show percent of visible |
+
+| Examples | Link |
+| ------ | ------ |
+| Phases Dec 2020 - Jan 2021 | [api_get_moon_day.php?type=phaselist&date_start=2020-12-01&date_stop=2021-01-31](https://astrolog.life/api/api_get_moon_day.php?type=phaselist&date_start=2020-12-01&date_stop=2021-01-31)|
+
+
+Example result:
+
+![Widget Moon phases on custom period](https://astrolog.life/api/git_review/img/example_moon_phases_period.svg)![Widget Moon haircut](https://astrolog.life/api/git_review/img/example_moon_phases_period.svg)
+
+<hr>
 # Todo
 * Json output
 * Telegram format outout for bots
