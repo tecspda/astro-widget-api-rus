@@ -3,7 +3,6 @@ Astrology widget API RUS
 [![GitHub issues](https://img.shields.io/github/issues/tapaswenipathak/astro-widget-api-rus.svg)](https://github.com/tecspda/astro-widget-api-rus/issues)
 [![GitHub forks](https://img.shields.io/github/forks/tapaswenipathak/astro-widget-api-rus.svg)](https://github.com/tecspda/astro-widget-api-rus/network)
 [![GitHub stars](https://img.shields.io/github/stars/tapaswenipathak/astro-widget-api-rus.svg)](https://github.com/tecspda/astro-widget-api-rus/stargazers)
-[![GitHub license](https://img.shields.io/github/license/tapaswenipathak/astro-widget-api-rus.svg)](https://github.com/tecspda/astro-widget-api-rus/blob/master/License.md)
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/tapaswenipathak/astro-widget-api-rus.svg?label=astro-widget-api-rus&style=social)](https://twitter.com/intent/tweet?text=Horoscope%20API:&url=https%3A%2F%2Fgithub.com%2Ftapaswenipathak%2Fastro-widget-api-rus)
 
 An API to extract horoscope.
