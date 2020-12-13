@@ -33,8 +33,8 @@ An API to extract horoscope, moon phases and days, planet notes, aspect notes.
   * Natal img.
   * Plantets in Zodiak note.
   * Planets params note.
-  * Gradus note.
-  * Warning: important gradus note.
+  * Degree note.
+  * Warning: important degree note.
   
 **Notice**: all html result style = inline-block. 
   
