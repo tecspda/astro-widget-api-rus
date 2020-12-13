@@ -1,5 +1,3 @@
-![](https://img.shields.io/badge/-Horoscope%20API-blueviolet.svg)
-
 Astrology widget API RUS
 ======
 [![GitHub issues](https://img.shields.io/github/issues/tapaswenipathak/astro-widget-api-rus.svg)](https://github.com/tecspda/astro-widget-api-rus/issues)
@@ -25,7 +23,7 @@ An API to extract horoscope.
 * Moon day (now, custom date)
   * Moon day only
   * Moon day with icons and style  
-* Natal
+* Natal (start in Dec 2020, now testing)
   * Natal img.
   * Plantets in Zodiak note.
   * Planets params note.
@@ -104,16 +102,14 @@ Example ext=html result:
 ###### Example 1 (only number of Moon day)
 | Examples | Link |
 | ------ | ------ |
-| Example1 | [api_get_moon_day.php?type=day&date=2020-12-01&time=17:43&tzone=UTC+3&ext=num](https://astrolog.life/api/api_get_moon_day.php?type=day&date=2020-12-08&time=17:43&tzone=UTC+3&ext=num)|
-| Example1 | [api_get_moon_day.php?type=day&date=2020-12-01&time=17:43&tzone=UTC+3&ext=html](https://astrolog.life/api/api_get_moon_day.php?type=day&date=2020-12-08&time=17:43&tzone=UTC+3&ext=html)|
+| Example1 | [api_get_moon_day.php?type=now&tzone=UTC+3&ext=num](https://astrolog.life/api/api_get_moon_day.php?type=now&tzone=UTC+3&ext=num)|
+| Example1 | [api_get_moon_day.php?type=now&tzone=UTC+3&ext=html](https://astrolog.life/api/api_get_moon_day.php?type=now&tzone=UTC+3&ext=num)|
 
 | Params | Value |
 | ------ | ------ |
-| type | `day` |
-| date | `2020-12-08` - it's mean 1 Dec 2020, default Now() |
-| time | `17:43` or `17:43:05`, default Now() |
+| type | `now` |
 | tzone | `UTC+1` or `UTC+5` etc., default `UCT+3` MSK Russia |
-| ext | `num` or `html`, default Now() |
+| ext | `num` or `html`, default `html` |
 
 
 Example ext=num result:
@@ -127,25 +123,9 @@ Example ext=html result:
 
 <hr>
 
-### GET: `/horoscope/week/<sunsign>`
-#### Example
-Example usage: `GET http://astro-widget-api-rus.herokuapp.com/horoscope/week/libra`
-
-Output (excerpt):
-```json
-{
-  "horoscope": "  Be prepared to face a hectic week, says Ganesha. Things that were dormant shall now start gaining momentum. Your financial graph will gradually start going up. Things on both the personal and professional fronts are likely to become smoother. Your relations with your bosses shall improve. Boss and You! Finding difficulty to get along with your superior in your office, our expert astrologers can help you out. Get this report to get guidance from an astrological standpoint \u2013 as this report is based on your Natal Chart, it will be fully personalised for you. You shall be spending money on friends, but they shall return the favour by holding you in high regard and showering a lot of affection on you. This week, you shall also be able to earn through contacts and your reputation shall spread through word of mouth, fetching many assignments. This week is good for working with youngsters. That is to say, if you wish to impart training to the youngsters in your company or even in your family, this is the best week. Ganesha feels your approach towards social and personal issues shall be diplomatic.   Birth Horoscope Use the power of Astrology to understand yourself in a better way and get a sense of direction and purpose in life. The cosmic imprint of the stars has a profound impact on your life. Unravel your true potential through the Birth Horoscope report, being offered for free.      Get It Now! ", 
-  "sunsign": "libra", 
-  "week": "31-08-2014 \u2013 06-09-2014 "
-}
-```
-
-
 # Todo
-* Personality Profile
-* Facts About a Sunsign
-* Practical Side of a Sunsign
-* Astrological Perspective of a Sunsign
+* Json output
+* Telegram format outout for bots
 
 # API Wrappers 
 * Only native html & CSS 
@@ -162,5 +142,3 @@ Feel free to submit a pull request or an issue!
 #### Note 2 : If the API goes down, please open a issue or comment on already existing one with the problem(s) that you are facing. This is the best way to let me know that the API is not working, avoid sending email. 
 
 #### Note 3 : You can also try - https://astrolog.life/api/pay which has a commercial license and more features (custom styles, output in json, different language etc).
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tapasweni-pathak/astro-widget-api-rus/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
