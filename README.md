@@ -5,7 +5,10 @@ Astrology widget API RUS
 [![GitHub stars](https://img.shields.io/github/stars/tapaswenipathak/astro-widget-api-rus.svg)](https://github.com/tecspda/astro-widget-api-rus/stargazers)
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/tapaswenipathak/astro-widget-api-rus.svg?label=astro-widget-api-rus&style=social)](https://twitter.com/intent/tweet?text=Horoscope%20API:&url=https%3A%2F%2Fgithub.com%2Ftapaswenipathak%2Fastro-widget-api-rus)
 
-An API to extract horoscope.
+An API to extract horoscope, moon phases and days, planet notes, aspect notes.
+![Widget Moon haircut](https://astrolog.life/api/git_review/img/example_small.svg)![Widget Moon haircut](https://astrolog.life/api/git_review/img/example_moon_day_note1.svg)
+![Widget Moon day](https://astrolog.life/api/git_review/img/example_day_html.svg)
+![Widget Moon phases on custom period](https://astrolog.life/api/git_review/img/example_moon_phases_period450.svg)
 
 ## Table of Contents
 
