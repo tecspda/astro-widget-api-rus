@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Гороскоп на сегодня | Астролог Ольга Миролюбская | опыт работы 27 лет</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+ 
+    
+    
+</head>
+<body>
+
+<h2>API example. Astrolog.life</h2>
+<div id="test_text" style="width: 300px;"></div>
+
+<script>
+document.getElementById("test_text").innerHTML = httpGet("https://astrolog.life/api/api_get_moon.php?moon_type=haircut_small&month=12&&dot_shift=10");
+
+function httpGet(theUrl)
+{
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+    xmlHttp.send( null );
+    return xmlHttp.responseText;
+}
+</script>
+
+</body>
+</html>
