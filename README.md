@@ -141,7 +141,7 @@ GET: https://astrolog.life/api/api_get_moon_day.php?type=phaselist&date_start=X&
 
 Example result:
 
-![Widget Moon phases on custom period](https://astrolog.life/api/git_review/img/example_moon_phases_period.svg)
+![Widget Moon phases on custom period](https://astrolog.life/api/git_review/img/example_moon_phases_period450.svg)
 
 <hr>
 # Todo
