@@ -86,12 +86,12 @@ Example result:
 | ext | `num` or `html` | default `html` |
 
 
-Example ext=num result:
+Example `ext = num` result:
 
 ```html
 22
 ```
-Example ext=html result:
+Example `ext = html` result:
 
 ![Widget Moon day](https://astrolog.life/api/git_review/img/example_day_html.svg)
 
