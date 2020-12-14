@@ -41,10 +41,9 @@ An API to extract horoscope, moon phases and days, planet notes, aspect notes.
 # API Usage
 ###### Create IPI key: `https://astrolog.life/api`
 
-It will take 10 seconds. 
-Result :
 ```html
-5fd7d962129fb
+It will take 10 seconds. 
+Result: 5fd7d962129fb
 ```
 <hr>
 
