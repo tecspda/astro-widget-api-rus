@@ -39,7 +39,7 @@ An API to extract horoscope, moon phases and days, planet notes, aspect notes.
 **Notice**: all html result style = inline-block. 
   
 # API Usage
-## Create IPI key: `https://astrolog.life/api`
+### Create API key for your site: `https://astrolog.life/api`
 
 ```html
 It will take 10 seconds. 
