@@ -50,18 +50,19 @@ Result: 5fd7d962129fb
 ## GET Moon haircut calendar
 **Example**
 ```html
-GET: https://astrolog.life/api/api_get_moon.php?moon_type=X&month=Y&dot_shift=Z
+GET: https://astrolog.life/api/api_get_moon.php?moon_type=X&month=Y&dot_shift=Z&id=A
 ```
 | Params |  | Value |
 | ------ | ------ | ------ |
 | moon_type | X | `haircut_small` or **haircut_full** |
 | month | Y | One digit (from 1 until 12) |
 | dot_shift | Z | Optional, mean shift of color point |
+| id | A | Required, your api key |
 
 | Examples | Link |
 | ------ | ------ |
-| Dec 2020, small calendar | [api_get_moon.php?moon_type=haircut_small&month=12&dot_shift=10](https://astrolog.life/api/api_get_moon.php?moon_type=haircut_small&month=12&dot_shift=10)|
-| Dec 2020, small calendar and detail for all days | [api_get_moon.php?moon_type=haircut_full&month=12&dot_shift=10](https://astrolog.life/api/api_get_moon.php?moon_type=haircut_full&month=12&dot_shift=10)|
+| Dec 2020, small calendar | [api_get_moon.php?moon_type=haircut_small&month=12&dot_shift=10&id=5fd7d97bb3f26](https://astrolog.life/api/api_get_moon.php?moon_type=haircut_small&month=12&dot_shift=10&id=5fd7d97bb3f26)|
+| Dec 2020, small calendar and detail for all days | [api_get_moon.php?moon_type=haircut_full&month=12&dot_shift=10&id=5fd7d97bb3f26](https://astrolog.life/api/api_get_moon.php?moon_type=haircut_full&month=12&dot_shift=10&id=5fd7d97bb3f26)|
 
 Example result:
 
@@ -70,12 +71,12 @@ Example result:
 <hr>
 
 ## GET Moon day
-###### GET: `https://astrolog.life/api/api_get_moon_day.php?type=[string]&date=[string]&time=[string]&tzone=[string]&ext=[string]`
+###### GET: `https://astrolog.life/api/api_get_moon_day.php?type=[string]&date=[string]&time=[string]&tzone=[string]&ext=[string]&id=[string]
 ###### Example 1 (only number of Moon day)
 | Examples | Link |
 | ------ | ------ |
-| Example1 | [api_get_moon_day.php?type=day&date=2020-12-01&time=17:43&tzone=UTC+3&ext=num](https://astrolog.life/api/api_get_moon_day.php?type=day&date=2020-12-08&time=17:43&tzone=UTC+3&ext=num)|
-| Example1 | [api_get_moon_day.php?type=day&date=2020-12-01&time=17:43&tzone=UTC+3&ext=html](https://astrolog.life/api/api_get_moon_day.php?type=day&date=2020-12-08&time=17:43&tzone=UTC+3&ext=html)|
+| Example1 | [api_get_moon_day.php?type=day&date=2020-12-01&time=17:43&tzone=UTC+3&ext=num&id=5fd7d97bb3f26](https://astrolog.life/api/api_get_moon_day.php?type=day&date=2020-12-08&time=17:43&tzone=UTC+3&ext=num&id=5fd7d97bb3f26)|
+| Example1 | [api_get_moon_day.php?type=day&date=2020-12-01&time=17:43&tzone=UTC+3&ext=html&id=5fd7d97bb3f26](https://astrolog.life/api/api_get_moon_day.php?type=day&date=2020-12-08&time=17:43&tzone=UTC+3&ext=html&id=5fd7d97bb3f26)|
 
 | Params | Value | Note |
 | ------ | ------ | ------ |
@@ -84,7 +85,7 @@ Example result:
 | time | `17:43` or `17:43:05` | default Now() |
 | tzone | `UTC+1` or `UTC+5` etc. | default `UCT+3` MSK Russia |
 | ext | `num` or `html` | default `html` |
-
+| id | A | Required, your api key |
 
 Example `ext = num` result:
 
@@ -98,19 +99,19 @@ Example `ext = html` result:
 <hr>
 
 ## GET Moon day today (now)
-###### GET: `https://astrolog.life/api/api_get_moon_day.php?type=[string]&date=[string]&time=[string]&tzone=[string]&ext=[string]`
+###### GET: `https://astrolog.life/api/api_get_moon_day.php?type=[string]&date=[string]&time=[string]&tzone=[string]&ext=[string]&id=[string]`
 ###### Example 1 (only number of Moon day)
 | Examples | Link |
 | ------ | ------ |
-| Example1 | [api_get_moon_day.php?type=now&tzone=UTC+3&ext=num](https://astrolog.life/api/api_get_moon_day.php?type=now&tzone=UTC+3&ext=num)|
-| Example1 | [api_get_moon_day.php?type=now&tzone=UTC+3&ext=html](https://astrolog.life/api/api_get_moon_day.php?type=now&tzone=UTC+3&ext=num)|
+| Example1 | [api_get_moon_day.php?type=now&tzone=UTC+3&ext=num&id=5fd7d97bb3f26](https://astrolog.life/api/api_get_moon_day.php?type=now&tzone=UTC+3&ext=num&id=5fd7d97bb3f26)|
+| Example1 | [api_get_moon_day.php?type=now&tzone=UTC+3&ext=html&id=5fd7d97bb3f26](https://astrolog.life/api/api_get_moon_day.php?type=now&tzone=UTC+3&ext=num&id=5fd7d97bb3f26)|
 
 | Params | Value |
 | ------ | ------ |
 | type | `now` |
 | tzone | `UTC+1` or `UTC+5` etc., default `UCT+3` MSK Russia |
 | ext | `num` or `html`, default `html` |
-
+| id | Required, your api key |
 
 Example ext=num result:
 
@@ -126,17 +127,18 @@ Example ext=html result:
 ## GET Moon phases calendar
 **Example**
 ```html
-GET: https://astrolog.life/api/api_get_moon_day.php?type=phaselist&date_start=X&date_stop=Y
+GET: https://astrolog.life/api/api_get_moon_day.php?type=phaselist&date_start=X&date_stop=Y&id=A
 ```
 | Params |  | Value |
 | ------ | ------ | ------ |
 | date_start | X | format `2020-12-01` |
 | date_stop | Y | format `2020-12-01` |
 | with_percent | Z | optional, default `0`, `1` - for show percent of visible |
+| id | A | Required, your api key |
 
 | Examples | Link |
 | ------ | ------ |
-| Phases Dec 2020 - Jan 2021 | [api_get_moon_day.php?type=phaselist&date_start=2020-12-01&date_stop=2021-01-31](https://astrolog.life/api/api_get_moon_day.php?type=phaselist&date_start=2020-12-01&date_stop=2021-01-31)|
+| Phases Dec 2020 - Jan 2021 | [api_get_moon_day.php?type=phaselist&date_start=2020-12-01&date_stop=2021-01-31&id=5fd7d97bb3f26](https://astrolog.life/api/api_get_moon_day.php?type=phaselist&date_start=2020-12-01&date_stop=2021-01-31&id=5fd7d97bb3f26)|
 
 
 Example result:
