@@ -71,7 +71,9 @@ Example result:
 <hr>
 
 ## GET Moon day
-###### GET: `https://astrolog.life/api/api_get_moon_day.php?type=[string]&date=[string]&time=[string]&tzone=[string]&ext=[string]&id=[string]
+```html
+GET: https://astrolog.life/api/api_get_moon_day.php?type=[string]&date=[string]&time=[string]&tzone=[string]&ext=[string]&id=[string]
+```
 ###### Example 1 (only number of Moon day)
 | Examples | Link |
 | ------ | ------ |
