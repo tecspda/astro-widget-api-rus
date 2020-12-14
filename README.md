@@ -104,7 +104,7 @@ Example `ext = html` result:
 | Examples | Link |
 | ------ | ------ |
 | Example1 | [api_get_moon_day.php?type=now&tzone=UTC+3&ext=num&id=5fd7d97bb3f26](https://astrolog.life/api/api_get_moon_day.php?type=now&tzone=UTC+3&ext=num&id=5fd7d97bb3f26)|
-| Example1 | [api_get_moon_day.php?type=now&tzone=UTC+3&ext=html&id=5fd7d97bb3f26](https://astrolog.life/api/api_get_moon_day.php?type=now&tzone=UTC+3&ext=num&id=5fd7d97bb3f26)|
+| Example1 | [api_get_moon_day.php?type=now&tzone=UTC+3&ext=html&id=5fd7d97bb3f26](https://astrolog.life/api/api_get_moon_day.php?type=now&tzone=UTC+3&ext=html&id=5fd7d97bb3f26)|
 
 | Params | Value |
 | ------ | ------ |
