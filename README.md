@@ -39,17 +39,12 @@ An API to extract horoscope, moon phases and days, planet notes, aspect notes.
 **Notice**: all html result style = inline-block. 
   
 # API Usage
-###### API Test URL: `https://astrolog.life/api/testwork.php`
+###### Create IPI key: `https://astrolog.life/api`
 
+It will take 10 seconds. 
 Result :
-```json
-{
-  "author": "Sergey Durmanov", 
-  "author_url": "https://astrolog.life/", 
-  "base_url": "https://astrolog.life/api/", 
-  "project_name": "Astrology API RUS", 
-  "project_url": "http://tecspda.github.io/astro-widget-api-rus"
-}
+```html
+5fd7d962129fb
 ```
 <hr>
 
