@@ -50,19 +50,20 @@ Result: 5fd7d962129fb
 ## GET Moon haircut calendar
 **Example**
 ```html
-GET: https://astrolog.life/api/api_get_moon.php?moon_type=X&month=Y&dot_shift=Z&id=A
+GET: https://astrolog.life/api/api_get_moon.php?moon_type=X&year=Y&month=M&dot_shift=Z&id=A
 ```
 | Params |  | Value |
 | ------ | ------ | ------ |
 | moon_type | X | `haircut_small` or **haircut_full** |
-| month | Y | One digit (from 1 until 12) |
+| year | Y | digit (2020 etc.) |
+| month | M | digit (from 1 until 12) |
 | dot_shift | Z | Optional, mean shift of color point |
 | id | A | Required, your api key |
 
 | Examples | Link |
 | ------ | ------ |
-| Dec 2020, small calendar | [api_get_moon.php?moon_type=haircut_small&month=12&dot_shift=10&id=5fd7d97bb3f26](https://astrolog.life/api/api_get_moon.php?moon_type=haircut_small&month=12&dot_shift=10&id=5fd7d97bb3f26)|
-| Dec 2020, small calendar and detail for all days | [api_get_moon.php?moon_type=haircut_full&month=12&dot_shift=10&id=5fd7d97bb3f26](https://astrolog.life/api/api_get_moon.php?moon_type=haircut_full&month=12&dot_shift=10&id=5fd7d97bb3f26)|
+| Dec 2020, small calendar | [api_get_moon.php?moon_type=haircut_small&year=2020&month=12&dot_shift=10&id=5fd7d97bb3f26](https://astrolog.life/api/api_get_moon.php?moon_type=haircut_small&year=2020&month=12&dot_shift=10&id=5fd7d97bb3f26)|
+| Dec 2020, small calendar and detail for all days | [api_get_moon.php?moon_type=haircut_full&year=2020&month=12&dot_shift=10&id=5fd7d97bb3f26](https://astrolog.life/api/api_get_moon.php?moon_type=haircut_full&year=2020&month=12&dot_shift=10&id=5fd7d97bb3f26)|
 
 Example result:
 
