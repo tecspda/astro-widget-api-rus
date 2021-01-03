@@ -149,6 +149,7 @@ Example result:
 ![Widget Moon phases on custom period](https://astrolog.life/api/git_review/img/example_moon_phases_period450.svg)
 
 <hr>
+
 # Todo
 * Json output
 * Telegram format outout for bots
