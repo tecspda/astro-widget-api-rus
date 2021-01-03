@@ -29,6 +29,7 @@ An API to extract horoscope, moon phases and days, planet notes, aspect notes.
   * Moon day only
   * Moon day with icons and style
 * Moon phases caledar
+* Moon in Zodiac
 * Natal (start in Dec 2020, now testing)
   * Natal img.
   * Plantets in Zodiak note.
@@ -147,6 +148,28 @@ GET: https://astrolog.life/api/api_get_moon_day.php?type=phaselist&date_start=X&
 Example result:
 
 ![Widget Moon phases on custom period](https://astrolog.life/api/git_review/img/example_moon_phases_period450.svg)
+
+<hr>
+
+## GET Moon in zodiac table
+**Example**
+```html
+GET: https://astrolog.life/api/api_get_moon.php?moon_type=in_sign&date1=X&date2=Y&id=A
+```
+| Params |  | Value |
+| ------ | ------ | ------ |
+| date_start | X | format `2020-12-01` |
+| date_stop | Y | format `2020-12-01` |
+| id | A | Required, your api key |
+
+| Examples | Link |
+| ------ | ------ |
+| Table Jan 2021 | [api_get_moon.php?moon_type=in_sign&date1=2021-01-01&date2=2021-01-31](https://astrolog.life/api/api_get_moon.php?moon_type=in_sign&date1=2021-01-01&date2=2021-01-31|
+
+
+Example result:
+
+![Widget Moon phases on custom period](https://astrolog.life/api/git_review/img/example_moon_inzodiac_table.svg)
 
 <hr>
 
