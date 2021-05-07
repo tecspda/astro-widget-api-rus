@@ -164,7 +164,7 @@ GET: https://astrolog.life/api/api_get_moon.php?moon_type=in_sign&date1=X&date2=
 
 | Examples | Link |
 | ------ | ------ |
-| Table Jan 2021 | [api_get_moon.php?moon_type=in_sign&date1=2021-01-01&date2=2021-01-31](https://astrolog.life/api/api_get_moon.php?moon_type=in_sign&date1=2021-01-01&date2=2021-01-31)|
+| Table Jan 2021 | [api_get_moon.php?moon_type=in_sign&date1=2021-05-01&date2=2021-05-31](https://astrolog.life/api/api_get_moon.php?moon_type=in_sign&date1=2021-05-01&date2=2021-05-31)|
 
 
 Example result:
