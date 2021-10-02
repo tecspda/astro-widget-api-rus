@@ -79,8 +79,8 @@ GET: https://astrolog.life/api/api_get_moon_day.php?type=[string]&date=[string]&
 ###### Example 1 (only number of Moon day)
 | Examples | Link |
 | ------ | ------ |
-| Example1 | [api_get_moon_day.php?type=day&date=2020-12-01&time=17:43&tzone=UTC+3&ext=num&id=5fd7d97bb3f26](https://astrolog.life/api/api_get_moon_day.php?type=day&date=2020-12-08&time=17:43&tzone=UTC+3&ext=num&id=5fd7d97bb3f26)|
-| Example1 | [api_get_moon_day.php?type=day&date=2020-12-01&time=17:43&tzone=UTC+3&ext=html&id=5fd7d97bb3f26](https://astrolog.life/api/api_get_moon_day.php?type=day&date=2020-12-08&time=17:43&tzone=UTC+3&ext=html&id=5fd7d97bb3f26)|
+| Example1 | [api_get_moon_day.php?type=day&date=2021-12-01&time=17:43&tzone=UTC+3&ext=num&id=5fd7d97bb3f26](https://astrolog.life/api/api_get_moon_day.php?type=day&date=2020-12-08&time=17:43&tzone=UTC+3&ext=num&id=5fd7d97bb3f26)|
+| Example1 | [api_get_moon_day.php?type=day&date=2021-12-01&time=17:43&tzone=UTC+3&ext=html&id=5fd7d97bb3f26](https://astrolog.life/api/api_get_moon_day.php?type=day&date=2020-12-08&time=17:43&tzone=UTC+3&ext=html&id=5fd7d97bb3f26)|
 
 | Params | Value | Note |
 | ------ | ------ | ------ |
