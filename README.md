@@ -39,13 +39,6 @@ An API to extract horoscope, moon phases and days, planet notes, aspect notes.
   
   
 # API Usage
-### Optional API key for your site:
-`https://astrolog.life/api`
-```html
-It will take 10 seconds. 
-Result: 5fd7d962129fb
-```
-<hr>
 
 ### GET Moon haircut calendar
 **Example**
@@ -62,8 +55,8 @@ GET: https://astrolog.life/api/api_get_moon.php?moon_type=X&year=Y&month=M&dot_s
 
 | Examples | Link |
 | ------ | ------ |
-| Dec 2020, small calendar | [api_get_moon.php?moon_type=haircut_small&year=2021&month=09&dot_shift=10&id=5fd7d97bb3f26](https://astrolog.life/api/api_get_moon.php?moon_type=haircut_small&year=2020&month=12&dot_shift=10&id=5fd7d97bb3f26)|
-| Dec 2020, small calendar and detail for all days | [api_get_moon.php?moon_type=haircut_full&year=2020&month=12&dot_shift=10&id=5fd7d97bb3f26](https://astrolog.life/api/api_get_moon.php?moon_type=haircut_full&year=2020&month=12&dot_shift=10&id=5fd7d97bb3f26)|
+| Sep 2021, small calendar | [api_get_moon.php?moon_type=haircut_small&year=2021&month=09&dot_shift=10&id=5fd7d97bb3f26](https://astrolog.life/api/api_get_moon.php?moon_type=haircut_small&year=2021&month=9&dot_shift=10&id=5fd7d97bb3f26)|
+| Sep 2021, small calendar and detail for all days | [api_get_moon.php?moon_type=haircut_full&year=2021&month=9&dot_shift=10&id=5fd7d97bb3f26](https://astrolog.life/api/api_get_moon.php?moon_type=haircut_full&year=2021&month=9&dot_shift=10&id=5fd7d97bb3f26)|
 
 ##### Example result:
 
@@ -204,7 +197,14 @@ GET: https://github.com/tecspda/astro-widget-api-rus/tree/master/json/moon_no_co
 ```
 
 
-<hr>
+### Optional API key for your site:
+`https://astrolog.life/api`
+```html
+It will take 10 seconds. 
+Result: 5fd7d962129fb
+```
+
+
 
 # Todo
 * Json output for all
