@@ -27,7 +27,7 @@ An API to extract horoscope, moon phases and days, planet notes, aspect notes.
   * `calendar by month`
   * `calendar and detail all days in month`
 * __Moon day (now, custom date)__
-  * `html format`
+  * `html format, phase, persent of visible, icon `
   * `Moon day`
   * `Moon day with icons and style`
 * __Moon phases calendar__ 
@@ -152,13 +152,13 @@ GET: https://astrolog.life/api/api_get_moon.php?moon_type=in_sign&date1=X&date2=
 ```
 | Params |  | Value |
 | ------ | ------ | ------ |
-| date_start | X | format `2020-12-01` |
-| date_stop | Y | format `2020-12-01` |
-| id | A | Required, your api key |
+| date_start | X | format `2021-9-01` |
+| date_stop | Y | format `2021-10-01` |
+| id | A | Optional, your api key |
 
 | Examples | Link |
 | ------ | ------ |
-| Table Jan 2021 | [api_get_moon.php?moon_type=in_sign&date1=2021-05-01&date2=2021-05-31](https://astrolog.life/api/api_get_moon.php?moon_type=in_sign&date1=2021-05-01&date2=2021-05-31)|
+| Table Jan 2021 | [api_get_moon.php?moon_type=in_sign&date1=2021-9-01&date2=2021-11-31](https://astrolog.life/api/api_get_moon.php?moon_type=in_sign&date1=2021-9-01&date2=2021-11-30)|
 
 
 ##### Example result:
