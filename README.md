@@ -219,9 +219,9 @@ Feel free to submit a pull request or an issue!
 
 
 
-__Note 1__: This API is free (but limit 1000 requests per Month or 100 requests per day). ID KEY is not required until 15 Jan 2021. 
+__Note 1__: This API is free 
 
 __Note 2__: If the API goes down, please open a issue or comment on existing one with the problem(s) that you are facing. This is the best way to let me know that the API is not working, avoid sending email. 
 
-__Note 3__: You can try - `https://astrolog.life/api` which has a commercial license and more features (custom styles, output in json, different language etc).  
+__Note 3__: You can get key ([https://astrolog.life/api](https://astrolog.life/api)) so that we can provide you with great api opportunities in the future
 
